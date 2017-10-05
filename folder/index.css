@@ -1,0 +1,236 @@
+@import url(./styles/utilities/normalize.css);
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url("./fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Raleway-Regular.woff") format("woff"), url("./fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url("./fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Raleway-Bold.woff") format("woff"), url("./fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url("./fonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("./fonts/Raleway-Medium.woff") format("woff"), url("./fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CormorantGaramond-Medium';
+  src: url("./fonts/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("./fonts/CormorantGaramond-Medium.woff") format("woff"), url("./fonts/CormorantGaramond-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CormorantGaramond-SemiBoldItalic';
+  src: url("./fonts/CormorantGaramond-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/CormorantGaramond-SemiBoldItalic.woff") format("woff"), url("./fonts/CormorantGaramond-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oxygen-Light';
+  src: url("./fonts/Oxygen-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Oxygen-Light.woff") format("woff"), url("./fonts/Oxygen-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CormorantGaramond-MediumItalic';
+  src: url("./fonts/CormorantGaramond-MediumItalic.eot?#iefix") format("embedded-opentype"), url("./fonts/CormorantGaramond-MediumItalic.woff") format("woff"), url("./fonts/CormorantGaramond-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Muli-Light';
+  src: url("./fonts/Muli-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Muli-Light.woff") format("woff"), url("./fonts/Muli-Light.ttf") format("truetype"), url("./fonts/Muli-Light.svg#Muli-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("./fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto-Regular.woff") format("woff"), url("./fonts/Roboto-Regular.ttf") format("truetype"), url("./fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("./fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto-Light.woff") format("woff"), url("./fonts/Roboto-Light.ttf") format("truetype"), url("./fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bellefair-Regular';
+  src: url("./fonts/Bellefair-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Bellefair-Regular.woff") format("woff"), url("./fonts/Bellefair-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("./fonts/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/PlayfairDisplay-Regular.woff") format("woff"), url("./fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url("./fonts/PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("./fonts/PlayfairDisplay-Italic.woff") format("woff"), url("./fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url("./fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("./fonts/BebasNeueBold.otf") format("opentype"), url("./fonts/BebasNeueBold.woff") format("woff"), url("./fonts/BebasNeueBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("./fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenSans-Regular.woff") format("woff"), url("./fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+
+
+
+
+
+
+
+/*---------------Big presentation-------------------------*/
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('./fonts/Montserrat-Black.woff') format('woff'), url('./fonts/Montserrat-Black.ttf') format('truetype'), url("./fonts/Montserrat-Black.svg#Montserrat-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/Montserrat-Bold.woff') format('woff'), url('./fonts/Montserrat-Bold.ttf') format('truetype'), url("./fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('./fonts/Montserrat-Light.eot#iefix') format('embedded-opentype'), url('./fonts/Montserrat-Light.woff') format('woff'), url('./fonts/Montserrat-Light.ttf') format('truetype'), url("./fonts/Montserrat-Light.svg#Montserrat-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./fonts/Montserrat-Regular.eot') format('embedded-opentype'), url('./fonts/Montserrat-Regular.woff') format('woff'), url('./fonts/Montserrat-Regular.ttf') format('truetype'), url("./fonts/Montserrat-Regular.svg#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Thin';
+  src: url('./fonts/Montserrat-Thin.eot') format('embedded-opentype'), url('./fonts/Montserrat-Thin.woff') format('woff'), url('./fonts/Montserrat-Thin.ttf') format('truetype'), url("./fonts/Montserrat-Thin.svg#Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen-Bold';
+  src: url('./fonts/Oxygen-Bold.eot') format('embedded-opentype'), url('./fonts/Oxygen-Bold.woff') format('woff'), url('./fonts/Oxygen-Bold.ttf') format('truetype'), url("./fonts/Oxygen-Bold.svg#Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen-Light';
+  src: url('./fonts/Oxygen-Light.eot') format('embedded-opentype'), url('./fonts/Oxygen-Light.woff') format('woff'), url('./fonts/Oxygen-Light.ttf') format('truetype'), url("./fonts/Oxygen-Light.svg#Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen-Regular';
+  src: url('./fonts/Oxygen-Regular.eot') format('embedded-opentype'), url('./fonts/Oxygen-Regular.woff') format('woff'), url('./fonts/Oxygen-Regular.ttf') format('truetype'), url("./fonts/Oxygen-Regular.svg#Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('./fonts/GothamMedium.eot') format('embedded-opentype'), url('./fonts/GothamMedium.woff') format('woff'), url('./fonts/GothamMedium.ttf') format('truetype'), url("./fonts/GothamMedium.svg#Thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  outline: none;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+ul {
+  padding: 0;
+  list-style-type: none; }
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Raleway-Regular';
+  line-height: 1;
+  color: #000000;
+  background-color: #ffffff;
+  position: relative; }
+
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1400px; }
+
+.overlay {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.page .overlay-bg {
+  z-index: 1; }
+
+.page {
+  position: relative;
+  width: 3000px;
+  height: 1690px;
+  overflow: hidden; }
+
+.page > div,
+.page > img,
+.page > svg {
+  position: absolute;
+  z-index: 2; }
+
+.page .section-bg {
+  z-index: 1; }
+
+.circle-img {
+  border-radius: 100%; }
